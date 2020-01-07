@@ -1,26 +1,36 @@
 import React, {useState} from 'react';
-import {View, Text, StyleSheet, Button} from 'react-native';
+import {View, TextInput, Text, StyleSheet, Button} from 'react-native';
 
 function App() {
-  const [outputText, setOutputText] = useState('Open App.js to start working');
+  const [Goal, setGoal] = useState('');
   return (
     <View style={styles.container}>
-      <Text>Welcome!, {outputText}</Text>
-      <Button
-        title="Change Text"
-        onPress={() => {
-          setOutputText('The Text has changed!');
-        }}
-      />
+      <View style={styles.textbox}>
+        <TextInput
+          style={styles.textform}
+          // onChange={()=>setGoal()}
+          placeholder=" Enter goal here"
+        />
+        <Button title="add" />
+      </View>
+      <View style={styles.goalList}></View>
     </View>
   );
 }
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    backgroundColor: '#fff',
+    padding: 30,
+  },
+  textbox: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
     alignItems: 'center',
-    justifyContent: 'center',
+  },
+  textform: {
+    borderBottomWidth: 1,
+    borderBottomColor: 'black',
+    padding: 10,
+    width: '80%',
   },
 });
 
