@@ -1,27 +1,18 @@
 import React, {useState} from 'react';
 import {View, Text, StyleSheet, Button} from 'react-native';
+import Header from './src/components/Header';
+import StartGameScreen from './src/screens/StartGameScreen';
 
 function App() {
-  const [outputText, setOutputText] = useState('Open App.js to start working');
   return (
-    <View style={styles.container}>
-      <Text>Welcome!, {outputText}</Text>
-      <Button
-        title="Change Text"
-        onPress={() => {
-          setOutputText('The Text has changed!');
-        }}
-      />
+    <View style={styles.screen}>
+      <Header title="Guess A Number" />
+      <StartGameScreen /> 
     </View>
   );
 }
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
+  flex: 1,
 });
 
 export default App;
