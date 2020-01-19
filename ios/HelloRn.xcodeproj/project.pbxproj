@@ -19,6 +19,9 @@
 		1B50CD93CB91402CA5B1F103 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 65D7A7C0A92B41889CEE467D /* OpenSans-Bold.ttf */; };
 		4665C58761DF443DBADC1236 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D25130E71E14A38AF8DAF8B /* OpenSans-Regular.ttf */; };
 		6945C10AE54B4C7D8322B0A2 /* Mustache.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CC6BB75A638547DAAFF3CC38 /* Mustache.ttf */; };
+		CCEC3E3ABB7C42D4992AF56C /* Mustache.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A833D940EC948B1AE05ED24 /* Mustache.ttf */; };
+		F618EBEAF5654E178ED1F983 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 66B8510551004620925AC905 /* OpenSans-Bold.ttf */; };
+		C86716C4EAE9412D9679AB32 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27FCAA9712204EBA8DBA6EED /* OpenSans-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +60,9 @@
 		65D7A7C0A92B41889CEE467D /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; name = "OpenSans-Bold.ttf"; path = "../assets/fonts/OpenSans-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		4D25130E71E14A38AF8DAF8B /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; name = "OpenSans-Regular.ttf"; path = "../assets/fonts/OpenSans-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		CC6BB75A638547DAAFF3CC38 /* Mustache.ttf */ = {isa = PBXFileReference; name = "Mustache.ttf"; path = "../assets/fonts/Mustache.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3A833D940EC948B1AE05ED24 /* Mustache.ttf */ = {isa = PBXFileReference; name = "Mustache.ttf"; path = "../src/assets/fonts/Mustache.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		66B8510551004620925AC905 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; name = "OpenSans-Bold.ttf"; path = "../src/assets/fonts/OpenSans-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		27FCAA9712204EBA8DBA6EED /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; name = "OpenSans-Regular.ttf"; path = "../src/assets/fonts/OpenSans-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +176,9 @@
 				65D7A7C0A92B41889CEE467D /* OpenSans-Bold.ttf */,
 				4D25130E71E14A38AF8DAF8B /* OpenSans-Regular.ttf */,
 				CC6BB75A638547DAAFF3CC38 /* Mustache.ttf */,
+				3A833D940EC948B1AE05ED24 /* Mustache.ttf */,
+				66B8510551004620925AC905 /* OpenSans-Bold.ttf */,
+				27FCAA9712204EBA8DBA6EED /* OpenSans-Regular.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -314,6 +323,9 @@
 				1B50CD93CB91402CA5B1F103 /* OpenSans-Bold.ttf in Resources */,
 				4665C58761DF443DBADC1236 /* OpenSans-Regular.ttf in Resources */,
 				6945C10AE54B4C7D8322B0A2 /* Mustache.ttf in Resources */,
+				CCEC3E3ABB7C42D4992AF56C /* Mustache.ttf in Resources */,
+				F618EBEAF5654E178ED1F983 /* OpenSans-Bold.ttf in Resources */,
+				C86716C4EAE9412D9679AB32 /* OpenSans-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
