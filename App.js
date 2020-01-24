@@ -16,17 +16,11 @@ function App() {
     setUserNumber(selectedNumber);
     setGuessRounds(0);
   };
-  const gameOverHandler = numberOfRounds => {
+  const gameOverHandler = numberOfRounds => { 
     setGuessRounds(numberOfRounds);
   };
-   let content = <StartGameScreen onStartGame={startGameHandler} />;
-  // let content = (
-  //   <GameOverScreen
-  //     userNumber={1}
-  //     rounds={1}
-  //     onRestart={configureNewGameHandler}
-  //   />
-  // );
+  let content = <StartGameScreen onStartGame={startGameHandler} />;
+
   if (userNumber && guessRounds <= 0) {
     content = (
       <GameScreen userChoice={userNumber} onGameOver={gameOverHandler} />
