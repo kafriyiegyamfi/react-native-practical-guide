@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {View, Text, StyleSheet, Button} from 'react-native';
+import {View, Text, StyleSheet, Button, SafeAreaView} from 'react-native';
 import Header from './src/components/Header';
 import StartGameScreen from './src/screens/StartGameScreen';
 import GameScreen from './src/screens/GameScreen';
@@ -16,7 +16,7 @@ function App() {
     setUserNumber(selectedNumber);
     setGuessRounds(0);
   };
-  const gameOverHandler = numberOfRounds => { 
+  const gameOverHandler = numberOfRounds => {
     setGuessRounds(numberOfRounds);
   };
   let content = <StartGameScreen onStartGame={startGameHandler} />;
@@ -36,10 +36,10 @@ function App() {
   }
 
   return (
-    <View style={styles.screen}>
+    <SafeAreaView style={styles.screen}>
       <Header title="Guess A Number" />
       {content}
-    </View>
+    </SafeAreaView>
   );
 }
 
