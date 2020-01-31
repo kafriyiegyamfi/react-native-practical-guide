@@ -118,11 +118,13 @@ const GameScreen = props => {
           </MainButton>
         </View>
         <View style={listContainer}>
-          {/*<ScrollView contentContainerStyle={styles.list}>
+          {/*
+          <ScrollView contentContainerStyle={styles.list}>
           {pastGuesses.map((guess, index) =>
             renderListItem(guess, pastGuesses.length - index),
           )}
-        </ScrollView>*/}
+        </ScrollView>
+      */}
 
           <FlatList
             contentContainerStyle={styles.list}
